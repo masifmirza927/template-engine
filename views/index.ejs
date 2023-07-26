@@ -1,0 +1,14 @@
+
+    <%- include('header'); %>
+
+    <h1>This is my first Home</h1>
+
+    <% users.forEach(function(user){ %>
+        <h1>
+            <%- user.name  %>
+        </h1>
+        
+      <% }); %>
+
+
+    <%- include('footer'); %>
